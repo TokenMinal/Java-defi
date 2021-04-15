@@ -22,8 +22,9 @@ public class defi5 {
 		Scanner Scnum5 = new Scanner(System.in);
 		String num5 = Scnum5.nextLine();
 
-		int moyene = (Integer.parseInt(num1) + Integer.parseInt(num2) + Integer.parseInt(num3) + Integer.parseInt(num4) + Integer.parseInt(num5)) / 5;
-		System.out.println("moyene: " + moyene);
+		int moyene = Integer.parseInt(num1) + Integer.parseInt(num2) + Integer.parseInt(num3) + Integer.parseInt(num4) + Integer.parseInt(num5);
+		double moyeneF = moyene / 5.0;
+		System.out.println("moyene: " + moyeneF);
 		Scnum1.close();
 		Scnum2.close();
 		Scnum3.close();
