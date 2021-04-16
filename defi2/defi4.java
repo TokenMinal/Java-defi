@@ -21,11 +21,14 @@ public class defi4 {
 					}
 				}
 				
-				if (prime == false) {
-					System.out.println(num + " est un nombre premier");
+				if (prime == false  && num == 1) {
+				System.out.println("ce nombre n'est pas un nombre premier");
 				}
 				else if (prime == true) {
 					System.out.println("ce nombre n'est pas un nombre premier");
+				}
+				else if (prime == false) {
+					System.out.println(num + " est un nombre premier");
 				}
 				else {
 					System.out.println("uhhhh");
