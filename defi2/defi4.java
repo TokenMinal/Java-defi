@@ -22,7 +22,7 @@ public class defi4 {
 				}
 				
 				if (prime == false  && num == 1) {
-				System.out.println("ce nombre n'est pas un nombre premier");
+					System.out.println("ce nombre n'est pas un nombre premier");
 				}
 				else if (prime == true) {
 					System.out.println("ce nombre n'est pas un nombre premier");
